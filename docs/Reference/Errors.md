@@ -186,7 +186,7 @@ error handler.
 
 To ensure consistent error handling, it is recommended to throw instances of 
 `Error`. For instance, in the following example, replacing `throw 'foo'` with
-`throw new Error('foo')` in the `/bad` route ensures that errors propagate through
+`throw new Error('foo')` in the `/good` route ensures that errors propagate through
 the custom error handling chain as intended. This practice helps avoid potential
 pitfalls when working with custom error handling in Fastify.
 
